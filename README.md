@@ -4,7 +4,7 @@ This repository serves the public web pages of **Apolo Systems** and of **Body D
 
 ## About the game
 
-Body Defense is a single-player, offline, portrait tower defense for Android. The human body defends itself against viruses and bacteria: enemies walk along veins, the towers are immune cells, and the currency is amino acids. It has 10 levels, 10 towers, 13 enemies, 3 difficulties and 7 languages (English, Portuguese, French, Spanish, Italian, Chinese and Japanese). It has no accounts, no ads, no in-app purchases and no network access.
+Body Defense is a single-player, offline, portrait tower defense for Android. The human body defends itself against viruses and bacteria: enemies walk along veins, the towers are immune cells, and the currency is amino acids. It has 16 levels, 10 towers, 23 enemies, 3 difficulties per level and 7 languages (English, Portuguese, French, Spanish, Italian, Chinese and Japanese). It works fully offline. It has no ads, no in-app purchases and needs no account; it sends anonymous play data and ladder scores only if the player agrees (see the privacy policy).
 
 ## Pages
 

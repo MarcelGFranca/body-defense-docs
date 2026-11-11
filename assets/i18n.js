@@ -13,16 +13,16 @@
 		"pk.tag": "App web e Android",
 		"pk.text": "Comande um torneio de card game como um profissional. Rodadas suíças, Top Cut, um relógio de rodada compartilhado e classificação ao vivo, no bolso dos seus jogadores. Para Pokémon, Magic: The Gathering, Lorcana, One Piece e RiftBound.",
 		"bd.tag": "Jogo para Android",
-		"bd.card": "Um tower defense em pixel art dentro do corpo humano. Células de defesa enfrentam vírus e bactérias por veias e órgãos. Offline, sem anúncios, sem contas.",
+		"bd.card": "Um tower defense em pixel art dentro do corpo humano. Células de defesa enfrentam vírus e bactérias por veias e órgãos. Joga offline, sem anúncios, sem contas.",
 		"bd.page": "Página do jogo", "bd.privacy": "Política de privacidade",
 		"about": "Sobre",
 		"about.1": "Fazemos o software que gostaríamos de usar. O PKBattle nasceu da necessidade de organizadores de torneios cansados de chaves no papel e planilhas. O Body Defense nasceu da vontade de fazer um tower defense com uma ideia clara e sem poluição: um polegar, um corpo, uma luta.",
-		"about.2": "Nossos jogos não têm anúncios e não coletam nada dos jogadores. Veja como o Body Defense trata dados na <a data-privacy href=\"../\">política de privacidade</a>.",
+		"about.2": "Nossos jogos não têm anúncios. O Body Defense só envia dados anônimos de jogo se o jogador concordar. Veja como ele trata dados na <a data-privacy href=\"../\">política de privacidade</a>.",
 		"contact": "Contato",
 		"contact.text": "Dúvidas, sugestões ou parcerias: ",
 		"foot.made": "Feito pela",
 		"bdp.title": "Body Defense - Tower defense dentro do corpo humano",
-		"bdp.desc": "Body Defense é um tower defense em pixel art para Android. Posicione células de defesa contra vírus e bactérias em 10 fases pelo corpo humano. Offline, sem anúncios, sem contas.",
+		"bdp.desc": "Body Defense é um tower defense em pixel art para Android. Posicione células de defesa contra vírus e bactérias em 16 fases pelo corpo humano. Joga offline, sem anúncios, sem contas.",
 		"bdp.h1": "Algo está infectando o corpo.<br>Só você pode impedir.",
 		"bdp.lead": "Um tower defense em pixel art dentro do corpo humano. Vírus e bactérias marcham por veias e órgãos; você posiciona células de defesa para detê-los.",
 		"bdp.soon": "Em breve no Google Play",
@@ -36,7 +36,7 @@
 		"shots": "Capturas de tela",
 		"body": "Da garganta aos linfonodos",
 		"body.1": "Lute pela garganta e traqueia, pulmões, esôfago, estômago, intestinos, corrente sanguínea, fígado, baço e linfonodos. Três fases terminam com um chefe, e a última é o HIV.",
-		"body.2": "<strong>Sem anúncios. Sem contas. Sem precisar de internet.</strong> Música e efeitos sonoros originais. Disponível em inglês, português, francês, espanhol, italiano, chinês e japonês. Seu progresso fica no seu celular.",
+		"body.2": "<strong>Sem anúncios. Sem contas. Joga offline.</strong> Música e efeitos sonoros originais. Disponível em inglês, português, francês, espanhol, italiano, chinês e japonês. Seu progresso fica no seu celular; os dados anônimos de jogo e os rankings são opcionais.",
 		"bdp.contact": "Sugestões e dúvidas: "
 	};
 	var lang = null;
