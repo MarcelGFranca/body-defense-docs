@@ -4,13 +4,14 @@ This repository serves the public web pages of **Apolo Systems** and of **Body D
 
 ## About the game
 
-Body Defense is a single-player, offline, portrait tower defense for Android. The human body defends itself against viruses and bacteria: enemies walk along veins, the towers are immune cells, and the currency is amino acids. It has 16 levels, 10 towers, 23 enemies, 3 difficulties per level and 7 languages (English, Portuguese, French, Spanish, Italian, Chinese and Japanese). It works fully offline. It has no ads, no in-app purchases and needs no account; it sends anonymous play data and ladder scores only if the player agrees (see the privacy policy).
+Body Defense is a single-player, offline, portrait tower defense for Android. The human body defends itself against viruses and bacteria: enemies walk along veins, the towers are immune cells, and the currency is amino acids. It has 16 levels, 10 towers, 23 enemies, 3 difficulties per level and 7 languages (English, Portuguese, French, Spanish, Italian, Chinese and Japanese). It works fully offline. It has no ads, no in-app purchases and needs no account; it sends anonymous play data and ladder scores only if the player agrees, and signing in with Google Play Games (achievements only) is optional (see the privacy policy and the terms of use).
 
 ## Pages
 
 | Page | Address |
 |---|---|
 | Body Defense privacy policy (English and Portuguese) | https://marcelgfranca.github.io/body-defense-docs/ |
+| Body Defense terms of use (English and Portuguese) | https://marcelgfranca.github.io/body-defense-docs/terms/ |
 | Apolo Systems landing page (mentions PKBattle and Body Defense) | https://marcelgfranca.github.io/body-defense-docs/apolo/ |
 | Body Defense landing page | https://marcelgfranca.github.io/body-defense-docs/body-defense/ |
 
@@ -23,6 +24,7 @@ contact.apolosystems@gmail.com
 ## Files
 
 - `index.html`: the privacy policy, served by GitHub Pages from the `main` branch.
+- `terms/index.html`: the terms of use (English and Portuguese, same style as the privacy policy).
 - `apolo/index.html`: the Apolo Systems landing page.
 - `body-defense/index.html`: the Body Defense landing page.
 - `assets/site.css`: the style shared by the landing pages.
