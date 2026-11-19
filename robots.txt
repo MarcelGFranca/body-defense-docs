@@ -1,0 +1,8 @@
+# Everything on this site is public and meant to be found, by search engines and by AI assistants.
+# Well-behaved crawlers (including GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User,
+# PerplexityBot and Google-Extended) are welcome. Only the 404 page asks not to be indexed.
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+Sitemap: https://bodydefense.com.br/sitemap.xml

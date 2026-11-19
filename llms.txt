@@ -1,0 +1,28 @@
+# Body Defense
+
+> Body Defense is a pixel-art tower defense game for Android set inside the human body. Immune cells (the towers) defend the body against viruses, bacteria and fungi (the enemies) along veins and organs. It plays offline, needs no account, and shows one light ad between levels. Made by Apolo Systems, Brazil. Status: coming soon on Google Play (not public yet).
+
+## Facts
+
+- Genre: tower defense, strategy; single player; portrait; one-thumb controls.
+- Platform: Android 7.0 or newer, 64-bit (arm64) phones.
+- Price: free to download and play. One light interstitial ad (Google AdMob) appears between levels, never during a game. No in-app purchases at the moment.
+- Offline: the whole game plays without internet. A connection is only used for ads, for optional anonymous play data and for the ladders.
+- Account: none needed. Signing in with Google Play Games (achievements only) is optional.
+- Content: 16 levels in two chapters (the body from the throat to the lymph nodes, then a fungal invasion), 10 defenders (immune cells), 23 enemies (viruses, bacteria and fungi), 6 bosses (from HIV to Ebola), 3 difficulties, an endless mode, weekly, monthly and all-time ladders, 28 achievements.
+- Languages: English, Portuguese, French, Spanish, Italian, Chinese, Japanese.
+- Age: made for players aged 13 and over; the ads are not directed at children. It is a game, not medical advice.
+- Data: anonymous play data and the ladders are optional and can be turned off in Settings; the game does not use location, contacts, camera, microphone, photos or files. Ads come from Google AdMob under Google's policy, with a consent form where the law requires it.
+- Developer: Apolo Systems, an independent studio in Brazil. Contact: contact.apolosystems@gmail.com
+
+## Pages
+
+- [Body Defense, English](https://bodydefense.com.br/): overview, facts at a glance, how it works, the 10 defenders, screenshots and a FAQ.
+- [Body Defense, Portuguese](https://bodydefense.com.br/pt/): the same page in Brazilian Portuguese.
+- [Privacy policy](https://bodydefense.com.br/privacy/): what the game and the website use and for how long (English and Portuguese).
+- [Terms of use](https://bodydefense.com.br/terms/): licence, fair play and ladders, availability (English and Portuguese).
+- [Apolo Systems](https://bodydefense.com.br/apolo/): the studio behind the game.
+
+## Optional
+
+- [Sitemap](https://bodydefense.com.br/sitemap.xml)
