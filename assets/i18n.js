@@ -14,7 +14,7 @@
 		"pk.text": "Comande um torneio de card game como um profissional. Rodadas suíças, Top Cut, um relógio de rodada compartilhado e classificação ao vivo, no bolso dos seus jogadores. Para Pokémon, Magic: The Gathering, Lorcana, One Piece e RiftBound.",
 		"bd.tag": "Jogo para Android",
 		"bd.card": "Um tower defense em pixel art dentro do corpo humano. Células de defesa enfrentam vírus e bactérias por veias e órgãos. Joga offline, sem contas, com anúncios leves entre as fases.",
-		"bd.page": "Página do jogo", "bd.privacy": "Política de privacidade",
+		"bd.page": "Página do jogo", "bd.privacy": "Política de privacidade", "foot.terms": "Termos de uso",
 		"about": "Sobre",
 		"about.1": "Fazemos o software que gostaríamos de usar. O PKBattle nasceu da necessidade de organizadores de torneios cansados de chaves no papel e planilhas. O Body Defense nasceu da vontade de fazer um tower defense com uma ideia clara e sem poluição: um polegar, um corpo, uma luta.",
 		"about.2": "O Body Defense mostra anúncios leves entre as fases e só envia dados anônimos de jogo se o jogador concordar. Veja como ele trata dados na <a data-privacy href=\"../privacy/\">política de privacidade</a>.",
