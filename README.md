@@ -34,3 +34,7 @@ contact.apolosystems@gmail.com
 - `assets/i18n.js`: language detection and the Portuguese texts (English is the HTML itself; add a `data-i18n` key to every new text).
 - `assets/apolo/`, `assets/body-defense/`, `assets/pkbattle/`: logos, icons, screenshots and tower animations used by the landing pages.
 - `.nojekyll`: left from the GitHub Pages time; harmless.
+
+## Visit statistics
+
+Every page loads the tracker of the Umami that Apolo Systems runs (`https://umami.pkbattle.com.br/script.js`, the same one pkbattle uses; the dashboard is only on the tailnet). The `<script>` tag is in the `<head>` of each page with the website id of "Body Defense site" in Umami. `data-domains="bodydefense.com.br"` makes a local or preview copy count nothing, and `data-do-not-track="true"` respects the browser's signal. No cookie, no stored network address; the privacy policy has a section "This website" and a retention row (24 months) that must stay true: delete older records by hand (see `openspec/changes/add-site-analytics` in the game repository). When the Google Play button becomes a real link, give it `data-umami-event="play-store-click"` to count the clicks.
