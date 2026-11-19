@@ -3,24 +3,202 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-i18n="bdp.title">Body Defense - Tower defense inside the human body</title>
-<meta name="description" data-i18n="bdp.desc" content="Body Defense is a pixel-art tower defense for Android. Place immune cells against viruses and bacteria across 16 levels of the human body. Plays offline, no accounts, light ads between levels.">
-<link rel="icon" href="assets/body-defense/icon.png">
+<title data-i18n="bdp.title">Body Defense: Offline Tower Defense in the Human Body</title>
+<meta name="description" data-i18n="bdp.desc" content="Pixel-art tower defense for Android. Place immune cells against viruses and bacteria through 16 levels of the human body. Plays offline, no account.">
+<link rel="canonical" href="https://bodydefense.com.br/">
+<link rel="alternate" hreflang="en" href="https://bodydefense.com.br/">
+<link rel="alternate" hreflang="pt-BR" href="https://bodydefense.com.br/pt/">
+<link rel="alternate" hreflang="x-default" href="https://bodydefense.com.br/">
+<meta name="theme-color" content="#241820">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Body Defense">
+<meta property="og:url" content="https://bodydefense.com.br/">
+<meta property="og:title" content="Body Defense: tower defense inside the human body">
+<meta property="og:description" content="Immune cells vs. viruses, bacteria and fungi. A pixel-art tower defense for Android with 16 levels. Plays offline, no account needed.">
+<meta property="og:image" content="https://bodydefense.com.br/assets/body-defense/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Body Defense: pixel-art immune cells facing viruses along a vein">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Body Defense: tower defense inside the human body">
+<meta name="twitter:description" content="Immune cells vs. viruses, bacteria and fungi. A pixel-art tower defense for Android with 16 levels. Plays offline, no account needed.">
+<meta name="twitter:image" content="https://bodydefense.com.br/assets/body-defense/og-image.png">
+<meta name="twitter:image:alt" content="Body Defense: pixel-art immune cells facing viruses along a vein">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" href="assets/body-defense/icon.png" sizes="512x512">
+<link rel="apple-touch-icon" href="assets/body-defense/apple-touch-icon.png">
 <link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "VideoGame",
+    "MobileApplication"
+   ],
+   "@id": "https://bodydefense.com.br/#game",
+   "name": "Body Defense",
+   "url": "https://bodydefense.com.br/",
+   "description": "Pixel-art tower defense for Android. Place immune cells against viruses and bacteria through 16 levels of the human body. Plays offline, no account.",
+   "image": "https://bodydefense.com.br/assets/body-defense/og-image.png",
+   "applicationCategory": "GameApplication",
+   "operatingSystem": "Android 7.0 or newer",
+   "gamePlatform": "Android",
+   "genre": [
+    "Tower defense",
+    "Strategy"
+   ],
+   "playMode": "SinglePlayer",
+   "inLanguage": [
+    "en",
+    "pt",
+    "fr",
+    "es",
+    "it",
+    "zh",
+    "ja"
+   ],
+   "isAccessibleForFree": true,
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 13
+   },
+   "author": {
+    "@id": "https://bodydefense.com.br/#apolo"
+   },
+   "publisher": {
+    "@id": "https://bodydefense.com.br/#apolo"
+   }
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://bodydefense.com.br/#apolo",
+   "name": "Apolo Systems",
+   "url": "https://bodydefense.com.br/apolo/",
+   "logo": "https://bodydefense.com.br/assets/apolo/logo.png",
+   "email": "contact.apolosystems@gmail.com"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://bodydefense.com.br/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is Body Defense?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Body Defense is a pixel-art tower defense game for Android set inside the human body. Viruses, bacteria and fungi walk along veins and organs, and you place immune cells such as macrophages and lymphocytes to stop them. It has 16 levels, 10 defenders, 23 enemies and 3 difficulties."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Body Defense free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. It is free to download and to play, and it has no in-app purchases. It shows one light ad (Google AdMob) between levels, never during a game."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does it work offline?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The whole game plays without an internet connection. A connection is only used to show ads, to send anonymous play data if you agree, and to show the ladders."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does it have ads?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, a short ad can appear after you win a level and tap to go on. Ads never appear during a game, and not in the first levels. Where the law requires it, for example in Europe and the United Kingdom, the game asks for your consent first."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What data does it collect?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It needs no account and does not ask for your name or email. The first time you open it, the game asks whether it may send anonymous play data (levels, results, towers used and a random player ID); you can say no, or change it at any time in Settings. The ads, provided by Google AdMob, collect their own data under Google's policy. The game itself does not use your location, contacts, camera, microphone, photos or files. All the details are in the privacy policy."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which languages does it speak?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "English, Portuguese, French, Spanish, Italian, Chinese and Japanese."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which Android versions does it need?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Android 7.0 or newer, on a 64-bit (arm64) phone. The game is played in portrait."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it a game for kids?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It is made for players aged 13 and over, and its ads are not directed at children. It is a game, not a lesson or medical advice, but its enemies are real microbes with their real names, so students and curious players can pick up a few facts while they play."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where can I get it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Body Defense is coming to Google Play for Android. This page will link to the store as soon as the game is public."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who made it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Body Defense is made by Apolo Systems, an independent studio in Brazil."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I contact the developer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Write to contact.apolosystems@gmail.com. Feedback and questions are welcome."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 <script defer src="https://umami.pkbattle.com.br/script.js" data-website-id="679bab25-2285-4114-9a81-084cf58274c1" data-domains="bodydefense.com.br" data-do-not-track="true"></script>
 </head>
 <body>
 <header class="top"><div class="wrap">
 	<a class="brand" href="./"><img class="px" src="assets/body-defense/icon.png" alt="">Body Defense</a>
-	<nav><a href="#how" data-i18n="nav.how">How it works</a><a href="#defenders" data-i18n="nav.defenders">Defenders</a><a href="#screens" data-i18n="nav.screens">Screenshots</a><a data-privacy href="privacy/" data-i18n="nav.privacy">Privacy</a><span class="lang"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="pt" aria-pressed="false">PT</button></span></nav>
+	<nav><a href="#how" data-i18n="nav.how">How it works</a><a href="#defenders" data-i18n="nav.defenders">Defenders</a><a href="#screens" data-i18n="nav.screens">Screenshots</a><a href="#faq" data-i18n="nav.faq">FAQ</a><a data-privacy href="privacy/" data-i18n="nav.privacy">Privacy</a><span class="lang"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="pt" aria-pressed="false">PT</button></span></nav>
 </div></header>
 
 <main>
 <div class="wrap">
 <section class="hero">
-	<img class="px" src="assets/body-defense/feature.png" alt="Body Defense: defend the human body" width="1024" height="500" style="border-radius:.75rem;border:1px solid var(--line);margin-bottom:1.5rem">
-	<h1 data-i18n="bdp.h1">Something is infecting the body.<br>Only you can stop it.</h1>
-	<p class="lead" data-i18n="bdp.lead">A pixel-art tower defense inside the human body. Viruses and bacteria march along veins and organs; you place immune cells to stop them.</p>
+	<img class="px" src="assets/body-defense/feature.png" alt="Body Defense logo in pixel art, with immune cells facing viruses along a vein" data-i18n-alt="alt.hero" width="1024" height="500" fetchpriority="high" style="border-radius:.75rem;border:1px solid var(--line);margin-bottom:1.5rem">
+	<h1 data-i18n="bdp.h1">Body Defense: tower defense inside the human body</h1>
+	<p class="hook" data-i18n="bdp.hook">Something is infecting the body. Only you can stop it.</p>
+	<p class="lead" data-i18n="bdp.lead">Body Defense is an offline pixel-art tower defense game for Android. Viruses, bacteria and fungi march along veins and organs; you place immune cells to stop them.</p>
 	<a class="btn" aria-disabled="true" data-i18n="bdp.soon">Coming soon to Google Play</a>
 	<a class="btn alt" href="#how" data-i18n="nav.how">How it works</a>
 </section>
@@ -29,10 +207,26 @@
 	<div class="facts">
 		<div><b>16</b><span data-i18n="f.levels">levels through the body</span></div>
 		<div><b>10</b><span data-i18n="f.cells">immune cell defenders</span></div>
-		<div><b>23</b><span data-i18n="f.germs">viruses and bacteria</span></div>
+		<div><b>23</b><span data-i18n="f.germs">viruses, bacteria and fungi</span></div>
 		<div><b>3</b><span data-i18n="f.diff">difficulties</span></div>
 		<div><b>7</b><span data-i18n="f.lang">languages</span></div>
 	</div>
+</section>
+
+<section id="glance">
+	<h2 data-i18n="glance">Facts at a glance</h2>
+	<dl class="glance">
+		<div><dt data-i18n="g.platform">Platform</dt><dd data-i18n="g.platform.t">Android 7.0 or newer (64-bit phones), played in portrait</dd></div>
+		<div><dt data-i18n="g.status">Status</dt><dd data-i18n="g.status.t">Coming soon on Google Play</dd></div>
+		<div><dt data-i18n="g.price">Price</dt><dd data-i18n="g.price.t">Free to download and play, with one light ad between levels; no in-app purchases</dd></div>
+		<div><dt data-i18n="g.offline">Offline</dt><dd data-i18n="g.offline.t">Yes, the whole game plays without internet</dd></div>
+		<div><dt data-i18n="g.account">Account</dt><dd data-i18n="g.account.t">None needed</dd></div>
+		<div><dt data-i18n="g.content">Content</dt><dd data-i18n="g.content.t">16 levels in two chapters, 10 defenders, 23 enemies, 6 bosses, 3 difficulties, endless mode, 28 achievements</dd></div>
+		<div><dt data-i18n="g.lang">Languages</dt><dd data-i18n="g.lang.t">English, Portuguese, French, Spanish, Italian, Chinese, Japanese</dd></div>
+		<div><dt data-i18n="g.age">Age</dt><dd data-i18n="g.age.t">Made for players aged 13 and over</dd></div>
+		<div><dt data-i18n="g.data">Data</dt><dd data-i18n="g.data.t">Anonymous play data and ladders are optional; see the <a data-privacy href="privacy/">privacy policy</a></dd></div>
+		<div><dt data-i18n="g.dev">Developer</dt><dd data-i18n="g.dev.t">Apolo Systems, Brazil</dd></div>
+	</dl>
 </section>
 
 <section id="how">
@@ -49,35 +243,83 @@
 	<h2 data-i18n="def">10 defenders</h2>
 	<p data-i18n="def.t">Each cell fights in its own way, and the right mix wins levels.</p>
 	<div class="towers">
-		<figure><img class="px" src="assets/body-defense/towers/macrophage.gif" alt="Macrophage animation" loading="lazy" width="128" height="128"><figcaption>Macrophage</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/mucus-cell.gif" alt="Mucus Cell animation" loading="lazy" width="128" height="128"><figcaption>Mucus Cell</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/interferon.gif" alt="Interferon animation" loading="lazy" width="128" height="128"><figcaption>Interferon</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/neutrophil.gif" alt="Neutrophil animation" loading="lazy" width="128" height="128"><figcaption>Neutrophil</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/lysozyme.gif" alt="Lysozyme animation" loading="lazy" width="128" height="128"><figcaption>Lysozyme</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/platelet.gif" alt="Platelet animation" loading="lazy" width="128" height="128"><figcaption>Platelet</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/hypothalamus.gif" alt="Hypothalamus animation" loading="lazy" width="128" height="128"><figcaption>Hypothalamus</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/t-lymphocyte.gif" alt="T Lymphocyte animation" loading="lazy" width="128" height="128"><figcaption>T Lymphocyte</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/b-lymphocyte.gif" alt="B Lymphocyte animation" loading="lazy" width="128" height="128"><figcaption>B Lymphocyte</figcaption></figure>
-		<figure><img class="px" src="assets/body-defense/towers/bone-marrow.gif" alt="Bone Marrow animation" loading="lazy" width="128" height="128"><figcaption>Bone Marrow</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/macrophage.gif" alt="Macrophage, an immune cell defender, animated" data-i18n-alt="alt.t.macrophage" loading="lazy" width="128" height="128"><figcaption data-i18n="t.macrophage">Macrophage</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/mucus-cell.gif" alt="Mucus Cell, an immune cell defender, animated" data-i18n-alt="alt.t.mucus-cell" loading="lazy" width="128" height="128"><figcaption data-i18n="t.mucus-cell">Mucus Cell</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/interferon.gif" alt="Interferon, an immune cell defender, animated" data-i18n-alt="alt.t.interferon" loading="lazy" width="128" height="128"><figcaption data-i18n="t.interferon">Interferon</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/neutrophil.gif" alt="Neutrophil, an immune cell defender, animated" data-i18n-alt="alt.t.neutrophil" loading="lazy" width="128" height="128"><figcaption data-i18n="t.neutrophil">Neutrophil</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/lysozyme.gif" alt="Lysozyme, an immune cell defender, animated" data-i18n-alt="alt.t.lysozyme" loading="lazy" width="128" height="128"><figcaption data-i18n="t.lysozyme">Lysozyme</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/platelet.gif" alt="Platelet, an immune cell defender, animated" data-i18n-alt="alt.t.platelet" loading="lazy" width="128" height="128"><figcaption data-i18n="t.platelet">Platelet</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/hypothalamus.gif" alt="Hypothalamus, an immune cell defender, animated" data-i18n-alt="alt.t.hypothalamus" loading="lazy" width="128" height="128"><figcaption data-i18n="t.hypothalamus">Hypothalamus</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/t-lymphocyte.gif" alt="T Lymphocyte, an immune cell defender, animated" data-i18n-alt="alt.t.t-lymphocyte" loading="lazy" width="128" height="128"><figcaption data-i18n="t.t-lymphocyte">T Lymphocyte</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/b-lymphocyte.gif" alt="B Lymphocyte, an immune cell defender, animated" data-i18n-alt="alt.t.b-lymphocyte" loading="lazy" width="128" height="128"><figcaption data-i18n="t.b-lymphocyte">B Lymphocyte</figcaption></figure>
+		<figure><img class="px" src="assets/body-defense/towers/bone-marrow.gif" alt="Bone Marrow, an immune cell defender, animated" data-i18n-alt="alt.t.bone-marrow" loading="lazy" width="128" height="128"><figcaption data-i18n="t.bone-marrow">Bone Marrow</figcaption></figure>
 	</div>
 </section>
 
 <section id="screens">
 	<h2 data-i18n="shots">Screenshots</h2>
 	<div class="shots">
-		<img src="assets/body-defense/screenshots/1_menu.png" alt="Body Defense screenshot: Level menu" loading="lazy" width="720" height="1280">
-		<img src="assets/body-defense/screenshots/2_level_card.png" alt="Body Defense screenshot: Level card" loading="lazy" width="720" height="1280">
-		<img src="assets/body-defense/screenshots/3_level_3.png" alt="Body Defense screenshot: Level 3" loading="lazy" width="720" height="1280">
-		<img src="assets/body-defense/screenshots/4_level_7.png" alt="Body Defense screenshot: Level 7" loading="lazy" width="720" height="1280">
-		<img src="assets/body-defense/screenshots/5_level_5.png" alt="Body Defense screenshot: Level 5" loading="lazy" width="720" height="1280">
-		<img src="assets/body-defense/screenshots/6_level_10.png" alt="Body Defense screenshot: Level 10" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/1_menu.png" alt="Body Defense start menu: an immune cell faces a green virus" data-i18n-alt="alt.s1" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/2_level_card.png" alt="Level card of the stomach with its waves, towers and enemies" data-i18n-alt="alt.s2" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/3_level_3.png" alt="Level 3, the lungs: immune cells defend a pink path against waves of germs" data-i18n-alt="alt.s3" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/4_level_7.png" alt="Level 7, the bloodstream: a red vein with immune cells and incoming germs" data-i18n-alt="alt.s4" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/5_level_5.png" alt="Level 5, the stomach: a yellow path winding through the stomach" data-i18n-alt="alt.s5" loading="lazy" width="720" height="1280">
+		<img src="assets/body-defense/screenshots/6_level_10.png" alt="Level 10, the lymph nodes: a blue winding path with defenders in place" data-i18n-alt="alt.s6" loading="lazy" width="720" height="1280">
 	</div>
 </section>
 
 <section>
 	<h2 data-i18n="body">From the throat to the lymph nodes</h2>
-	<p data-i18n="body.1">Fight through the throat and trachea, lungs, esophagus, stomach, intestines, bloodstream, liver, spleen and lymph nodes. Three levels end with a boss, and the last one is HIV.</p>
+	<p data-i18n="body.1">Fight through the throat and trachea, lungs, esophagus, stomach, intestines, bloodstream, liver, spleen and lymph nodes, then through a second chapter of fungal infections: skin and nails, mouth and gut, the lungs again, the sinuses and brain, and sepsis. Six bosses wait along the way, from HIV to Ebola.</p>
 	<p data-i18n="body.2"><strong>No accounts. Plays offline. Light ads between levels.</strong> Original music and sound effects. Available in English, Portuguese, French, Spanish, Italian, Chinese and Japanese. Your progress stays on your phone; anonymous play data and ladders are optional, and the ads follow your consent choices (see the privacy policy).</p>
+</section>
+
+<section id="faq">
+	<h2 data-i18n="faq">Questions and answers</h2>
+	<div class="qa">
+		<h3 data-i18n="faq.q1">What is Body Defense?</h3>
+		<p data-i18n="faq.a1">Body Defense is a pixel-art tower defense game for Android set inside the human body. Viruses, bacteria and fungi walk along veins and organs, and you place immune cells such as macrophages and lymphocytes to stop them. It has 16 levels, 10 defenders, 23 enemies and 3 difficulties.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q2">Is Body Defense free?</h3>
+		<p data-i18n="faq.a2">Yes. It is free to download and to play, and it has no in-app purchases. It shows one light ad (Google AdMob) between levels, never during a game.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q3">Does it work offline?</h3>
+		<p data-i18n="faq.a3">Yes. The whole game plays without an internet connection. A connection is only used to show ads, to send anonymous play data if you agree, and to show the ladders.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q4">Does it have ads?</h3>
+		<p data-i18n="faq.a4">Yes, a short ad can appear after you win a level and tap to go on. Ads never appear during a game, and not in the first levels. Where the law requires it, for example in Europe and the United Kingdom, the game asks for your consent first.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q5">What data does it collect?</h3>
+		<p data-i18n="faq.a5">It needs no account and does not ask for your name or email. The first time you open it, the game asks whether it may send anonymous play data (levels, results, towers used and a random player ID); you can say no, or change it at any time in Settings. The ads, provided by Google AdMob, collect their own data under Google's policy. The game itself does not use your location, contacts, camera, microphone, photos or files. All the details are in the <a data-privacy href="privacy/">privacy policy</a>.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q6">Which languages does it speak?</h3>
+		<p data-i18n="faq.a6">English, Portuguese, French, Spanish, Italian, Chinese and Japanese.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q7">Which Android versions does it need?</h3>
+		<p data-i18n="faq.a7">Android 7.0 or newer, on a 64-bit (arm64) phone. The game is played in portrait.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q8">Is it a game for kids?</h3>
+		<p data-i18n="faq.a8">It is made for players aged 13 and over, and its ads are not directed at children. It is a game, not a lesson or medical advice, but its enemies are real microbes with their real names, so students and curious players can pick up a few facts while they play.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q9">Where can I get it?</h3>
+		<p data-i18n="faq.a9">Body Defense is coming to Google Play for Android. This page will link to the store as soon as the game is public.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q10">Who made it?</h3>
+		<p data-i18n="faq.a10">Body Defense is made by Apolo Systems, an independent studio in Brazil.</p>
+	</div>
+	<div class="qa">
+		<h3 data-i18n="faq.q11">How do I contact the developer?</h3>
+		<p data-i18n="faq.a11">Write to <a href="mailto:contact.apolosystems@gmail.com">contact.apolosystems@gmail.com</a>. Feedback and questions are welcome.</p>
+	</div>
 </section>
 
 <section>
@@ -87,7 +329,7 @@
 </div>
 </main>
 
-<footer><div class="wrap"><span data-i18n="foot.made">Made by</span> <a href="apolo/">Apolo Systems</a> &middot; <a data-privacy href="privacy/" data-i18n="bd.privacy">Privacy policy</a> &middot; <a data-privacy href="terms/" data-i18n="foot.terms">Terms of use</a></div></footer>
+<footer><div class="wrap"><span data-i18n="foot.made">Made by</span> <a href="apolo/">Apolo Systems</a> &middot; <a data-privacy href="privacy/" data-i18n="bd.privacy">Privacy policy</a> &middot; <a data-privacy href="terms/" data-i18n="foot.terms">Terms of use</a> &middot; <a href="pt/" hreflang="pt-BR" lang="pt-BR">Portugu&ecirc;s</a></div></footer>
 <script src="assets/i18n.js"></script>
 </body>
 </html>

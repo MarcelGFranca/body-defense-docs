@@ -13,6 +13,7 @@ The site is served at https://bodydefense.com.br by the Caddy of the host (see `
 | Page | Address |
 |---|---|
 | Body Defense landing page | https://bodydefense.com.br/ |
+| Body Defense landing page in Portuguese (static copy) | https://bodydefense.com.br/pt/ |
 | Body Defense privacy policy (English and Portuguese) | https://bodydefense.com.br/privacy/ |
 | Body Defense terms of use (English and Portuguese) | https://bodydefense.com.br/terms/ |
 | Apolo Systems landing page (mentions PKBattle and Body Defense) | https://bodydefense.com.br/apolo/ |
@@ -25,7 +26,11 @@ contact.apolosystems@gmail.com
 
 ## Files
 
-- `index.html`: the Body Defense landing page.
+- `index.html`: the Body Defense landing page (English; the head carries the title, description, canonical, hreflang, Open Graph, Twitter cards and the JSON-LD).
+- `pt/index.html`: the Portuguese landing page, **generated** by `tools/sync-pt.py` from `index.html` and the PT table of `assets/i18n.js`. Do not edit it by hand.
+- `robots.txt`, `sitemap.xml`, `llms.txt`: crawler rules, the five real URLs and a short factual summary for AI assistants. Update the facts in `llms.txt` and the FAQ together when the game changes or the Google Play page opens.
+- `favicon.ico`, `assets/body-defense/og-image.png` (1200 x 630 link preview), `assets/body-defense/apple-touch-icon.png`.
+- `tools/sync-pt.py`: run `python3 tools/sync-pt.py` after changing the landing page text or the PT table; it refreshes the JSON-LD and `pt/index.html`. `tools/check-site.py` checks titles, descriptions, alt texts, JSON-LD against the visible FAQ, links and the sitemap (needs Python with Pillow). Neither runs on the server: the site stays a plain folder.
 - `privacy/index.html`: the privacy policy (English and Portuguese).
 - `terms/index.html`: the terms of use (English and Portuguese, same style as the privacy policy).
 - `apolo/index.html`: the Apolo Systems landing page.
